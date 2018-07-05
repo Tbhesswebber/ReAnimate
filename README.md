@@ -1,2 +1,0 @@
-# ReAnimate
-Created with CodeSandbox

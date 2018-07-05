@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+/* .modal::before {
+  content: " ";
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+  transform: translate(-50%, calc((100vh - 500px) * -0.5));
+  background-color: #000000;
+  opacity: 0.75;
+} */
+
+.overlay {
+  content: " ";
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: #000000;
+  opacity: 0.75;
+}
+
+.modal {
+  position: absolute;
+  height: 500px;
+  width: 500px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: salmon;
+  z-index: 999;
+}
+
+.full {
+  height: 100%;
+  width: 100%;
+  background-color: teal;
+}
